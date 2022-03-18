@@ -11,8 +11,8 @@ int main()
     printf("Enter two number\n");
 
     scanf("%d %d", &(*px), &(*py));
-    if(&px > &py)        printf("[%d]] Tem o maio endereço == %x\n", x, &px);
-    else if (&py > &px)  printf("[%d] Tem o maio endereço == %x\n", y, &py);
+    if(&px > &py)        printf("[%d]] Tem o maio endereço == %d\n", x, px);
+    else if (&py > &px)  printf("[%d] Tem o maio endereço == %d\n", y, py);
 
     return 0;
 }
